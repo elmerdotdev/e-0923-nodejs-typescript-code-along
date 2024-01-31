@@ -42,3 +42,13 @@ function capitalizeString(word) {
     return combinedWord;
 }
 console.log(capitalizeString('appLE'));
+// Type Assignment
+var firstname;
+var age;
+firstname = "Joe";
+age = 25;
+// Type Inference
+var lastname = "Smith"; // Inferred type string
+var birthYear = 2000; // initial value is a number
+lastname = "David";
+birthYear = 1990;
